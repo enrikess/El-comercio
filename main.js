@@ -71,4 +71,10 @@ var ordenar = () => {
     document.getElementById('ordenados_numeros').innerHTML = text;
 
 }
-
+//limpiar input y cadenas
+var limpiar = () => {
+    lista_numeros = [];
+    document.getElementById('ordenados_numeros').innerHTML = '';
+    document.getElementById('lista_numeros').innerHTML = '';
+    document.getElementById('numero').value = '';
+}
