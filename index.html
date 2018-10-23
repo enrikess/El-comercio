@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200|Open+Sans+Condensed:700" rel="stylesheet">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Ordenador de Series</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <div class="cuerpo">
+        <h2 class="titulo">Ordenador de series</h2>
+        <p class="intro">Digitar el numero e ir presionando agregar para añadir a la lista</p>
+        <div class="completo">
+            <input type="text" class="numero" name="numero" id="numero">
+            <input class="boton" type="button" onclick="agregar()" value="agregar">
+
+        </div>
+        <div class="completo alerta-error" id="alerta-error">
+            <p class="alerta" id="alerta"></p>
+        </div>
+        <div id="lista_numeros" class="lista_numeros" name="lista_numeros"></div>
+        <input class="boton ordenar" type="button" id="ordenar" onclick="ordenar()" value="ordenar">
+        <div id="ordenados_numeros" class="ordenados_numeros" name="ordenados_numeros"></div>
+
+    </div>
+</body>
+<script>
+
+
+
+</script>
+
+</html>
